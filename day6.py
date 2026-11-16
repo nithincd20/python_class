@@ -3,8 +3,13 @@
 #   total +=n
 #   print("sum",total)
 
-correct_password="admin123"
-for attempt in range(1,4):
-    password=input("enter your password:")
-    if password==correct_password:
-        print("")
+# correct_password="admin123"
+# for attempt in range(1,4):
+#     password=input("enter your password:")
+#     if password==correct_password:
+#         print("login successful")
+#         break
+#     else:
+#         print("wrong password")
+#         if attempt == 3:
+#             print("account locked")
